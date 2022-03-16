@@ -1,0 +1,76 @@
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-position: left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    color: hsl(227, 10%, 46%);
+}
+
+.profile-card {
+    background-color: white;
+    width: 25%;
+    min-width: 300px;
+    border-radius: 15px;
+    margin: 10% auto 2% auto;
+    text-align: center;
+}
+
+.bio {
+    background-image: url(images/bg-pattern-card.svg);
+    background-repeat: repeat-x;
+    height: 300px;
+    border-radius: 3%;
+}
+
+.bio img {
+    border: 4px solid white;
+    position: relative;
+    top: 25%;
+    z-index: 0;
+    border-radius: 50%;
+}
+
+.stats {
+    border-top: 1px solid hsl(0, 0%, 59%);
+    display: flex;
+    padding: 2em;
+}
+
+.followers,
+.likes,
+.photos {
+    width: 33%;
+    padding: 1em;
+    font-size: 14px;
+}
+
+.text {
+    position: relative;
+    top: 25%;
+}
+
+.text.name {
+    font-weight: 700;
+    margin-bottom: 3%;
+    color: hsl(229, 23%, 23%);
+}
+
+.text.name .age {
+    font-weight: 400;
+    margin-bottom: 3%;
+}
+
+.text.city {
+    font-size: 14px;
+    padding-top: 0;
+}
+
+.number {
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
